@@ -13,7 +13,7 @@ GoogleMaps.callback = function() {
 }
 
 GoogleMaps.init = function(parameters, callback) {
-    if (typeof google === 'object' && typeof google.maps === 'object') {
+    if (typeof window.google === 'object' && typeof window.google.maps === 'object') {
         if ('function' == typeof callback) {
             callback();
         }

@@ -3,7 +3,7 @@
   "description": "Google Maps repackaged for Meteor",
   "homepage": "https://github.com/drewjw81/meteor-googlemaps",
   "author": "Andrew Winter <drewjw81@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "git": "https://github.com/drewjw81/meteor-googlemaps.git",
   "packages": {}
 }
