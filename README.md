@@ -4,7 +4,7 @@ Google Maps repackaged for Meteor.
 
 ## How to install:
 1. make sure you have [meteorite](https://github.com/oortcloud/meteorite) installed  
-    `$ npm install -g googlemaps`
+    `$ npm install -g meteorite`
 2. inside your project, run:  
     `$ mrt add googlemaps`
 
