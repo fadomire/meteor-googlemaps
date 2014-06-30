@@ -7,7 +7,7 @@ GoogleMaps.initialized = false;
 GoogleMaps.callbacks = [];
 GoogleMaps.callback = function() {
     for (key in GoogleMaps.callbacks) {
-        GoogleMaps.callbacks[key]();
+        GoogleMaps.callbacks[key](null);
     }
     GoogleMaps.callbacks = [];
 }
