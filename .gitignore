@@ -1,2 +1,6 @@
-*.sublime-*
 .DS_Store
+.npm
+.build*
+smart.lock
+versions.json
+.versions
