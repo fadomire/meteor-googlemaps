@@ -1,6 +1,6 @@
 Package.describe({
 	version: "0.1.1",
-	name: "drewjw81:googlemaps",
+	name: "mrt:googlemaps",
 	git: "https://github.com/drewjw81/meteor-googlemaps.git",
         summary: "Google maps repackaged for Meteor"
 });
