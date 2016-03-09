@@ -35,9 +35,6 @@ GoogleMaps.init = function(parameters, callback) {
     script.src = ("https:" === document.location.protocol ? "https:" : "http:") + '//maps.googleapis.com/maps/api/js';
     
     parameters = parameters || {};
-    if ('undefined' == typeof parameters['sensor']) {
-        parameters['sensor'] = false;
-    };
     parameters['callback'] = 'GoogleMaps.callback';
 
     var queryString = "?";
