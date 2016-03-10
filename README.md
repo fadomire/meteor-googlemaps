@@ -1,3 +1,5 @@
+This repository is not actively developed please use https://github.com/dburles/meteor-google-maps/ instead as it's supported and contains many more features than this.
+
 # meteor-googlemaps
 
 Google Maps repackaged for Meteor.
