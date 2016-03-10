@@ -1,4 +1,4 @@
-This repository is not actively developed please use https://github.com/dburles/meteor-google-maps/ instead as it's supported and contains many more features than this.
+This repository is not actively developed please use `dburles:google-maps` https://github.com/dburles/meteor-google-maps/ as it's supported and contains many more features than this.
 
 # meteor-googlemaps
 
