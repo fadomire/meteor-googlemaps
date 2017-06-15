@@ -59,4 +59,6 @@ GoogleMaps.remove = function() {
 
     delete google.maps;
     
+    GoogleMaps.initialized = false;
+    
 };
