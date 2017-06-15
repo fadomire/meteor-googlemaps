@@ -33,6 +33,7 @@ GoogleMaps.init = function(parameters, callback) {
     script.type = "text/javascript";
     script.async = !0;
     script.src = ("https:" === document.location.protocol ? "https:" : "http:") + '//maps.googleapis.com/maps/api/js';
+    script.id = 'google-maps-script';
     
     parameters = parameters || {};
     parameters['callback'] = 'GoogleMaps.callback';
@@ -49,4 +50,13 @@ GoogleMaps.init = function(parameters, callback) {
 
     firstScript = document.getElementsByTagName("script")[0];
     firstScript.parentNode.insertBefore(script, firstScript);
+};
+
+GoogleMaps.remove = function() {
+    var oldScript = document.getElementById("google-maps-script");
+    
+    oldScript.parentNode.removeChild(oldScript);
+
+    delete google.maps;
+    
 };
